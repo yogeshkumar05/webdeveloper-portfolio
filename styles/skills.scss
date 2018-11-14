@@ -1,0 +1,72 @@
+@import './variable.scss';
+
+.skills-container {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+}
+.progress-each-skill {
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    background-color: $theme-color;
+}
+.progress-react {
+    @extend .progress-each-skill;
+    width: 95%;
+}
+.skill-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.skill-name {
+    width: 125px;
+}
+.progress-html {
+    @extend .progress-each-skill;
+    width: 90%;
+}
+.progress-css {
+    @extend .progress-each-skill;
+    width: 87%;
+}
+.progress-js {
+    @extend .progress-each-skill;
+    width: 85%;
+}
+.progress-redux {
+    @extend .progress-each-skill;
+    width: 80%;
+}
+.progress-sass {
+    @extend .progress-each-skill;
+    width: 83%;
+}
+.progress-node {
+    @extend .progress-each-skill;
+    width: 20%;
+}
+.progress-mongo {
+    @extend .progress-each-skill;
+    width: 15%;
+}
+.progress-native {
+    @extend .progress-each-skill;
+    width: 25%;
+}
+.skills-wrapper {
+    width: 100%;
+    margin-left: 155px;
+}
+.skills-anime {
+    flex: 2;
+}
+.skills-list {
+    flex: 1;
+    margin-left: 50px;
+}
