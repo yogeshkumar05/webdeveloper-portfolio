@@ -10,6 +10,9 @@
 .mainpage-container {
     @extend .body-container;  
     width: 100%;  
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 50px;
 }
 .login-user {
     height:50px;
@@ -192,3 +195,4 @@
         color: $pure-white;
       }
   }
+  
