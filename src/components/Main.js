@@ -21,7 +21,7 @@ export default class Main extends Component {
     return(<div className='main-container'>
         <div className="profile-card">
             <div className='profile-img-container'>
-                <img src="src = '../../images/img_avatar.png" alt="Yogesh"/>
+                <img src="src = '../../images/dp.jpg" alt="Yogesh"/>
             </div>
             <div className='profile-details-container'>
                 {/* <h1 className='profile-name'>Yogesh Kumar</h1> */}

@@ -18,7 +18,7 @@ class Sidenav extends Component {
     render() {
     return(<div className='sidenav-container'>
         <div className='top-sidenav'>
-            <NavLink exact to="/"  activeClassName='active-route'><img className='icon-thumbnail' src = '../../images/img_avatar.png' /> <div className='name-thumbnail'>Yogesh</div></NavLink>
+            <NavLink exact to="/"  activeClassName='active-route'><img className='icon-thumbnail' src = '../../images/dp.jpg' /> <div className='name-thumbnail'>Yogesh</div></NavLink>
             <NavLink to='/skills'  activeClassName='active-route'>Skills</NavLink>
             <NavLink to='/experience' activeClassName='active-route'>Experience</NavLink>
             <NavLink to='/about' activeClassName='active-route'>Personal</NavLink>
