@@ -1,25 +1,26 @@
 import React from 'react';
+import AccordionInfo from './AccordionInfo';
 import TopActionBar from './TopActionBar';
 
-const About = (props) => {
-    const {users} = props;    
+class About extends React.Component {
+
+    render() {
+    const {users} = this.props;    
     return(<div className='body-container'>
         <TopActionBar heading='Personal Info'/>
         <div className='aboutme-container'>
-            <ul>
-                <li>Born and raised in <a href='https://en.wikipedia.org/wiki/Hassan,_Karnataka' target='_blank'>Hassan</a>, Karnakata</li>
-                <li>Residing in <a href='https://en.wikipedia.org/wiki/Bangalore' target='_blank'>Bangalore</a>, Karnakata</li> 
-                <li>Studied till +2 in Jawahar Navodaya Vidyalaya, Hassan</li>
-                <li>Graduated in 2012 from National Institute of Technology Karnataka in Information Technology</li>
-                <li>Open to learn new things</li>
-                <li>Staunch follower of Yoga</li>
-                <li>Likes to read Motivational books</li>
-                <li>Good at Swimming, Cricket, Volleyball, Table Tennis</li>
-                <li>Loves to train people on new Technologies</li>
-                <li>Knows four languages</li>
-            </ul>
+            <div className='aboutme-info'>
+                <i class="fa fa-calendar"></i><span>DOB:</span> <span className='aboutme-data'>10 Feb 1990</span>
+            </div>
+            <div className='aboutme-info'>
+                <i class="fa fa-flag"/><span>Nationality:</span> <span className='aboutme-data'>Indian</span>
+            </div>
+            <AccordionInfo title='Hobbies & Interests' icon='certificate' dataKey='hobbies'/>
+            <AccordionInfo title='Education' icon='graduation-cap' dataKey='education'/>
+            <AccordionInfo title='Languages' icon='language' dataKey='languages'/>
         </div>
     </div>);
+}
 }
 export default About;
 

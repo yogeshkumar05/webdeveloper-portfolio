@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+th {
+    text-align: center !important;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+    .fa {
+        padding: 5px;
+    }
+    .fa-check {
+        color: green;
+    }
+    
+    .fa-remove {
+        color: red;
+    }
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+

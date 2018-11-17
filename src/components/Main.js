@@ -46,63 +46,49 @@ export default class Main extends Component {
                 </p>
                 <div className='contact-urls'> 
             {/* <a href="#" className='profile-social-links'><i class="fa fa-github-square"></i></a> */}
-            <a href='#'><img className='npm-icon' src="src = '../../images/github.png" alt="Github"/></a>
-            <a href='#'><img className='npm-icon' src="src = '../../images/npm.png" alt="Npm"/></a>
-            <a href="#" className='profile-social-links'><i className="fa fa-twitter"></i></a>  
-            <a href="#" className='profile-social-links'><i className="fa fa-linkedin"></i></a>  
-            <a href="#" className='profile-social-links'><i className="fa fa-facebook"></i></a>
-            <a href="#" className='profile-social-links'><i className="fa fa-skype"></i></a>  
+            <a href='https://github.com/yogeshkumar05/' target='_blank'><img className='npm-icon' src="src = '../../images/github.png" alt="Github"/></a>
+            <a href='https://www.npmjs.com/~yogeshkumar.05' target='_blank'><img className='npm-icon' src="src = '../../images/npm.png" alt="Npm"/></a>
+            <a href="https://twitter.com/yogeshkumar05" target='_blank' className='profile-social-links'><i className="fa fa-twitter"></i></a>  
+            <a href="https://www.linkedin.com/in/yogesh-kumar-a8617957/" target='_blank' className='profile-social-links'><i className="fa fa-linkedin"></i></a>  
+            <a href="https://www.facebook.com/yogesh05kk" target='_blank' className='profile-social-links'><i className="fa fa-facebook"></i></a>
+            <a href="skype:live:yogeshkumar.05?call" target='_blank' className='profile-social-links'><i className="fa fa-skype"></i></a>  
         </div>
                 {/* <Link to='/contact' ><button className='profile-contact'>Hire Me</button></Link> */}
             </div>
         </div>
-    <div className='main-summary'>
-    <ul>
-        <li>Total Experience: 6+ years</li>
-        <li>Web Development Experience: 4+ years</li>
-        <li>Experience across the domains
-            <ol>Digital Banking: 3+ years</ol>
-            <ol>Storage Area Networking: 2 years</ol>
-            <ol>Telecommunication: 1 year</ol>
-        </li>
-        <li>Co-Applicant of 6 patents in India & US</li>
-        <li>10+ Enterprise projects</li>
-        <li>15+ trainings</li>
-    </ul>
-    </div>
     <div class="row">
   <div class="column">
     <div class="card">
-      <p><i class="fa fa-user"></i></p>
-      <h3>11+</h3>
-      <p>Partners</p>
+      <p><i class="fa fa-briefcase"></i></p>
+      <h3>6+</h3>
+      <p>years of Experience</p>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
+      <p><i class="fa fa-star"></i></p>
+      <h3>6</h3>
+      <p>Patents</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
       <p><i class="fa fa-check"></i></p>
-      <h3>55+</h3>
-      <p>Projects</p>
+      <h3>8+</h3>
+      <p>Enterprise Projects</p>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <p><i class="fa fa-smile-o"></i></p>
-      <h3>100+</h3>
-      <p>Happy Clients</p>
+      <p><i class="fa fa-slideshare"></i></p>
+      <h3>10+</h3>
+      <p>Technical Trainings</p>
     </div>
   </div>
-  
-  <div class="column">
-    <div class="card">
-      <p><i class="fa fa-coffee"></i></p>
-      <h3>100+</h3>
-      <p>Meetings</p>
-    </div>
-  </div>
-</div>
+</div>    
     </div>);
 }
 }
