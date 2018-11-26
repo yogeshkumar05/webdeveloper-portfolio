@@ -4,7 +4,10 @@
   "description": "web developer portfolio - Yogesh",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "prepublishOnly": "npm run transpile",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d /"
   },
   "Cache-Control": "max-age",
   "repository": {
@@ -16,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/yogeshkumar05/webdeveloper-portfolio/issues"
   },
-  "homepage": "https://github.com/yogeshkumar05/webdeveloper-portfolio#readme",
+  "homepage": "https://github.com/yogeshkumar05/webdeveloper-portfolio",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-core": "^6.26.3",
