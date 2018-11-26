@@ -1,0 +1,48 @@
+@import './variable.scss';
+.sidenav-flex {
+    display: flex;
+    flex-direction: column;
+}
+.sidenav-container {
+    @extend .sidenav-flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 155px;
+    border-right: 1px solid;
+    color: $theme-font;
+    background: $theme-color;
+    a {
+        color: $pure-white;
+        text-decoration: none;
+        margin: 10px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    a:hover {
+        color: #adbace;
+    }
+    .badge {
+        background: #f00;
+    }
+}
+.top-sidenav {
+    @extend .sidenav-flex;
+}
+.bottom-sidenav {
+    @extend .sidenav-flex;
+}
+.icon-thumbnail {
+    border-radius: 50%;
+    width: 50%;
+    height: 100%;
+}
+.name-thumbnail {
+    text-align: center;
+    color: $dark-orange;
+    margin-bottom: 10px;
+}
+.active-route {
+    font-size: 30px !important;
+}
