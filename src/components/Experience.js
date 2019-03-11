@@ -12,6 +12,24 @@ export default class TestExperience extends Component {
           <TopActionBar heading='Experience Page'/>
           <div className='experience-wrapper'>
             <div class="timeline">
+            <div class="experience-container right">
+    <div class="content">
+    <h5 className='project-title'>RFX Analytics Engine</h5>
+      <div className='project-title'>Xebia / McKinsey, Bangalore </div>
+      <div className='project-title'>ReactJS Developer</div>
+      <div className='project-time'>Nov 2018 - Till Now</div>
+      <p className='project-details'>Web application to analyse the bid proposals</p>
+      <ul className='project-skills'>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Javascript ES6</li>
+        <li>ReactJS</li>
+        <li>Redux Saga</li>
+        <li>Jest</li>
+        <li>Enzyme</li>
+      </ul>
+    </div>
+  </div>
   <div class="experience-container left">
     <div class="content">
     <h5 className='project-title'>True IService</h5>
