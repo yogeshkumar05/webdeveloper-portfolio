@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Route, NavLink } from 'react-router-dom';
 import HamburgerIcon from './HamburgerIcon';
 
-class Sidenav extends Component {
+class MobSidenav extends Component {
     constructor(props) {
         super(props);
         this.state= {
@@ -34,9 +34,9 @@ class Sidenav extends Component {
 
 
 
-    <div className='sidenav-container'>
-        <div className='top-sidenav'>
-            <NavLink exact to="/"  activeClassName='active-route'><img className='icon-thumbnail' src = '../../images/dp.jpg' /> <div className='name-thumbnail'>Yogesh</div></NavLink>
+    <div className='mob-sidenav-container'>
+        <div className='mob-sidenav'>
+            <NavLink exact to="/"  activeClassName='active-route'>Home</NavLink>
             <NavLink to='/skills'  activeClassName='active-route'>Skills</NavLink>
             <NavLink to='/experience' activeClassName='active-route'>Experience</NavLink>
             <NavLink to='/about' activeClassName='active-route'>Personal</NavLink>
@@ -47,4 +47,4 @@ class Sidenav extends Component {
     </div>);
     }
 }
-export default Sidenav;
+export default MobSidenav;

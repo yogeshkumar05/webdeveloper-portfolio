@@ -6,7 +6,7 @@
     color: $theme-font;
 }
 .add-container {
-    @extend .main-container;
+    @extend .main-container !optional;
     .btn-primary {
         margin-bottom: 20px;
     }

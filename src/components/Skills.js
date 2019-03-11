@@ -1,5 +1,6 @@
 import React, {Component} from 'react'; 
 import TopActionBar from './TopActionBar';
+import MobileHeader from '../components/MobileHeader';
 export default class Skills extends Component {
     constructor(props) {
         super(props);
@@ -8,7 +9,7 @@ export default class Skills extends Component {
     render() {
         return (
             <div className='skills-wrapper'>
-                <TopActionBar heading='Skills Page'/>
+            <TopActionBar heading='Skills'/>
             <div className='skills-container'>
                 <div className='skills-anime'>
                 <div className='skill-details'>

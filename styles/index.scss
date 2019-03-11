@@ -8,6 +8,8 @@
 @import './skills.scss';
 @import './experience.scss';
 @import './languages.scss';
+@import './mobHeader.scss';
+@import './Navbar.scss';
 
 body {
     margin: 0;
@@ -18,6 +20,7 @@ body {
 .app-container {
     height: 100vh;
     display: flex;
+    flex-direction: column;
 }
 #container {
     // max-width: 1024px;

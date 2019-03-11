@@ -1,4 +1,18 @@
 @import './variable.scss';
+
+.hamburger-container {
+    cursor: pointer;
+    margin-right: 20px;
+    .hamburger-line {
+        width: 35px;
+        height: 5px;
+        background-color: $pure-white;
+        margin: 6px 0;
+    }
+}
+
+
+
 .sidenav-flex {
     display: flex;
     flex-direction: column;
@@ -29,6 +43,9 @@
 }
 .top-sidenav {
     @extend .sidenav-flex;
+    a:nth-child(2) {
+        margin-top: 35px;
+    }
 }
 .bottom-sidenav {
     @extend .sidenav-flex;
@@ -36,7 +53,7 @@
 .icon-thumbnail {
     border-radius: 50%;
     width: 50%;
-    height: 100%;
+    height: 80px;
 }
 .name-thumbnail {
     text-align: center;
@@ -46,3 +63,34 @@
 .active-route {
     font-size: 30px !important;
 }
+
+
+@media  screen and (max-width: 1024px) {
+    .sidenav-container {
+        display: none;
+    }
+
+}
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }

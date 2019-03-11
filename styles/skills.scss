@@ -1,9 +1,8 @@
 @import './variable.scss';
-
 .skills-container {
     display: flex;
     margin: 0 auto;
-    padding-left: 50px;
+    flex-direction: column;
 }
 .progress-container {
     width: 100%;
@@ -61,7 +60,9 @@
 }
 .skills-wrapper {
     width: 100%;
-    margin-left: 155px;
+    padding: 20px;
+    height: calc(100vh - 50px);
+    overflow: scroll;
 }
 .skills-anime {
     flex: 2;
@@ -69,4 +70,18 @@
 .skills-list {
     flex: 1;
     margin-left: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+    .skills-container {
+        flex-direction: row;
+        margin: 0 auto;
+        padding: 0;
+        padding-left: 50px;
+    }
+    .skills-wrapper {
+        margin-left: 155px;
+        padding: 0
+    }
+    
 }
