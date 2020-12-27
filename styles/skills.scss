@@ -48,15 +48,15 @@
 }
 .progress-node {
     @extend .progress-each-skill;
-    width: 20%;
+    width: 30%;
 }
 .progress-mongo {
     @extend .progress-each-skill;
-    width: 15%;
+    width: 30%;
 }
 .progress-native {
     @extend .progress-each-skill;
-    width: 25%;
+    width: 30%;
 }
 .skills-wrapper {
     width: 100%;

@@ -14,13 +14,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const container = document.getElementById('container');
 // const initialRoute = window.innerWidth >= 1024 ? Sidenav : Main;
 ReactDOM.render(<BrowserRouter>
-                        <div className='app-container'>
-                            <Route path="/" component={Navbar}/>
-                            <Route path="/" exact component={Main}/>
-                            <Route path="/skills" component={Skills}/>
-                            <Route path="/experience" component={Experience}/>
-                            <Route path="/about" component={About}/>
-                            <Route path="/resume" component={Resume}/>
-                            <Route path="/appendix" component={Appendix}/>
-                        </div>
-                    </BrowserRouter>, container );
+  <div className='app-container'>
+    <Route path="/" component={Navbar} />
+    <Route path="/" exact component={Main} />
+    <Route path="/skills" component={Skills} />
+    <Route path="/experience" component={Experience} />
+    <Route path="/about" component={About} />
+    <Route path="/resume" component={Resume} />
+    <Route path="/appendix" component={Appendix} />
+  </div>
+</BrowserRouter>, container);
